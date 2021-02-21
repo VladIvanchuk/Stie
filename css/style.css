@@ -8,7 +8,6 @@ html{
 }
 
 body {
-	min-width: 1500px;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 15px;
 	line-height: 1.6;
@@ -27,23 +26,7 @@ a {
 	padding: 0 25px;
 }
 
-@media(max-width: 1500px){
-	.container{
-		max-width: 970px;
-	}
-}
 
-@media(max-width: 992px){
-	.container{
-		max-width: 750px;
-	}
-}
-
-@media(max-width: 767px){
-	.container{
-		max-width: none;
-	}
-}
 
 header{
 	font-size: 20px;
