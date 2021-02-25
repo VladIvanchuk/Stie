@@ -8,6 +8,7 @@ html{
 }
 
 body {
+	position: absolute;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 15px;
 	line-height: 1.6;
@@ -21,7 +22,7 @@ a {
 }
 
 .container{
-	max-width: 1500px;
+	max-width: 99%;
 	margin: 0 auto;
 	padding: 0 25px;
 }
@@ -56,6 +57,10 @@ header.sticky {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	
+}
+
+#activ_page {
+	text-decoration: underline;
 }
 
 
@@ -108,6 +113,7 @@ header.sticky {
 
 .intro{
 	min-height: 100vh;
+	min-width: 100%;
 	background: url(../img/main.png) no-repeat center;
 	background-size: cover;
 	box-sizing: inherit;
@@ -133,6 +139,11 @@ header.sticky {
 
 .mainlogo{
 	text-align: center;
+}
+
+.mainlogo img{
+	border-radius: 100%;
+	height: 230px;
 }
 
 .maintext{
@@ -629,6 +640,10 @@ header.sticky {
 	color: #FFFCFC;
 }
 
+.game__sec{
+	margin-top: -45px;
+}
+
 .game{
 	background-color: #00263b;
 }
@@ -782,6 +797,13 @@ header.sticky {
 
 }
 
+
+
 .map {
     text-align: center;
+    margin-top: -30px;
+}
+
+.map iframe {
+	margin-top: -50px;
 }
