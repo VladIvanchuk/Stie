@@ -8,6 +8,7 @@ html{
 }
 
 body {
+	height: 100%;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 15px;
 	line-height: 1.6;
@@ -25,8 +26,6 @@ a {
 	margin: 0 auto;
 	padding: 0 25px;
 }
-
-
 
 header{
 	font-size: 20px;
@@ -82,6 +81,40 @@ header.sticky {
 	margin-right: 0;
 }
 
+@media (max-width: 900px) {
+	.header__item{
+	overflow: hidden;
+	opacity: 0;
+}
+}
+@media (max-width: 1100px) {
+	.logo__nemk{
+	overflow: hidden;
+	opacity: 0;
+}
+}
+
+@media (min-width: 576px) {
+	.header__item{
+	margin-right: 25px;
+
+}
+}
+
+@media (min-width: 992px) {
+	.header__item{
+	margin-right: 45px;
+}
+}
+
+@media (min-width: 1200px) {
+	.header__item{
+	margin-right: 65px;
+
+}
+}
+
+
 .nav__button{
 	height: 40px;
 	vertical-align: middle; 
@@ -107,7 +140,7 @@ header.sticky {
 }
 
 .logo__nemk{
-	height: 60px;
+	height: 55px;
 }
 
 .intro{
@@ -144,6 +177,29 @@ header.sticky {
 	border-radius: 100%;
 	height: 230px;
 }
+
+
+@media (min-height: 500px) {
+	.mainlogo img{
+	border-radius: 100%;
+	height: 150px;
+}
+}
+
+@media (min-height: 600px) {
+	.mainlogo img{
+	border-radius: 100%;
+	height: 200px;
+}
+}
+
+@media (min-height: 800px) {
+	.mainlogo img{
+	border-radius: 100%;
+	height: 230px;
+}
+}
+
 
 .maintext{
 	padding: 0 250px 0 250px;
@@ -625,7 +681,7 @@ header.sticky {
 }
 
 .opp img{
-	width: 1100px;
+	width: 80%;
 }
 
 
