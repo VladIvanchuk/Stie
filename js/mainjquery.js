@@ -33,3 +33,34 @@ $(document).ready(function(){
   		autoplaySpeed: 3000,
 	});
 });
+
+
+//ПЛАВНИЙ СКРОЛ
+$(document).ready(function () {
+
+	$('.nav [href^="#"]').click(function () {
+			var target = $(this).attr('href');
+			$('html, body').animate({
+				scrollTop: $(target).offset().top
+			}, 600);
+			return false;
+		});
+
+	var btn = $('#btnup');
+
+//НА ВЕРХ	
+
+	$(window).scroll(function() {
+	  if ($(window).scrollTop() > 700) {
+	    btn.addClass('show');
+	  } else {
+	    btn.removeClass('show');
+	  }
+	});
+
+	btn.on('click', function(e) {
+	  e.preventDefault();
+	  $('html, body').animate({scrollTop:0}, '300');
+	});
+	});
+
