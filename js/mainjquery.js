@@ -62,15 +62,5 @@ $(document).ready(function () {
 	  e.preventDefault();
 	  $('html, body').animate({scrollTop:0}, '300');
 	});
+	});
 
-
-
-$(window).on('load', function () {
-    $preloader = $('.mask'),
-    $loader = $preloader.find('mask');
-    $loader.fadeOut();
-    $preloader.delay(1300).fadeOut('slow');
-    });
-
-new WOW().init();
-});
