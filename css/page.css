@@ -1,0 +1,78 @@
+html{
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	line-height: 1.6;
+	margin: 0;
+	color: black;
+	background-color: #001E2E;
+	background: url("../img/main.png") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+button,
+button:active,
+button:focus {
+outline: none !important;
+}
+
+input {
+	outline:none;
+}
+
+h1 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 33px;
+	line-height: 49px;
+	text-align: center;
+	color: #FFFCFC;
+}
+h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	color: #FFFCFC;
+}
+
+.container{
+	max-width: 99%;
+	margin: 0 auto;
+	padding: 0 25px;
+}
+
+.external__container{
+	max-width: 95%;
+	margin: 200px auto;
+	padding: 25px;
+	background: #001E2E;
+	min-height: 100px;
+}
+
+
+.page__text {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	color: #FFFCFC;
+	margin: 100px 0;
+}
+

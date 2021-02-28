@@ -17,6 +17,13 @@ body {
 	background-color: #001E2E;
 }
 
+.body__page{
+	background: url("../img/main.png") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
 a {
 	text-decoration: none;
 }
@@ -48,6 +55,14 @@ h2 {
 	color: #FFFCFC;
 }
 
+.page__text {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	color: #FFFCFC;
+	margin: 100px 0;
+}
 
 ::-webkit-scrollbar{
 	width: 12px;
