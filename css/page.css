@@ -46,14 +46,14 @@ h1 {
 h2 {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 20px;
-	line-height: 30px;
+	font-size: 26px;
+	line-height: 40px;
 	text-align: center;
 	color: #FFFCFC;
 }
 
 .container{
-	max-width: 99%;
+	max-width: 95%;
 	margin: 0 auto;
 	padding: 0 25px;
 }
@@ -63,9 +63,23 @@ h2 {
 	margin: 200px auto;
 	padding: 25px;
 	background: #001E2E;
-	min-height: 100px;
+	min-height: 80px;
 }
 
+.page{
+	padding: 40px 0;
+}
+
+.paragraph{
+	margin: 100px 0;
+	display: block;
+	min-height: 200px;
+}
+
+.paragraph{
+	margin: 50px 0;
+	text-align: center;
+}
 
 .page__text {
 	font-style: normal;
@@ -73,6 +87,29 @@ h2 {
 	font-size: 20px;
 	line-height: 30px;
 	color: #FFFCFC;
-	margin: 100px 0;
+	text-align: justify;
+	padding-top: 20px;
+}
+.center{
+	text-align: center;
+	font-weight: 600;
+	padding: 0 10%;
 }
 
+.page__text img {
+	padding: 0;
+	float: right;
+	margin: 0 0 20px 30px;
+	height: 200px;
+	vertical-align: top
+}
+
+.left img{
+	float: left;
+	margin: 0 30px 20px 0;
+}
+
+.slidrsec{
+	margin-top: 200px;
+
+}
