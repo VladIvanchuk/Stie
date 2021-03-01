@@ -328,7 +328,7 @@ header.sticky {
 
   background-color: #fff;
 
-  transition-duration: .25s;
+  transition-duration: .35s;
 }
 .menu__btn > span::before {
   content: '';
@@ -358,7 +358,7 @@ header.sticky {
   background-color: rgba(0, 70, 96, 1);
   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
   z-index: 1000;
-  transition-duration: .25s;
+  transition-duration: .35s;
 }
 
 @media (max-width: 900px) {
@@ -506,6 +506,8 @@ header.sticky {
 	background: url(../img/main.png) no-repeat center;
 	background-size: cover;
 	box-sizing: inherit;
+    background-attachment: fixed; */
+
 }
 
 .intro__items{
@@ -634,17 +636,18 @@ header.sticky {
 
 @media (max-width: 1000px){
 	.header__text{
-	font-size: 70px;
+	font-size: 60px;
 	
 }
 
 .header__text2{
-	font-size: 35px;
+	font-size: 30px;
 	line-height: 40px;
 }
 
 .header__text3{
-	font-size: 20px;
+	font-size: 15px;
+	opacity: 0;
 	
 }
 .maintext{
@@ -652,6 +655,14 @@ header.sticky {
 	text-align: center;
 }
 }
+
+@media (max-width: 700px){
+	.header__text2{
+	font-size: 12px;
+	line-height: 30px;
+}
+}
+
 
 @media (max-height: 670px){
 	.rectangle {
@@ -981,17 +992,38 @@ header.sticky {
 /****************************************************/
 
 .opp{
-	margin: 450px 0 20px 0;
+	margin: 390px 0 20px 0;
 	text-align: center;
 }
 
-.oppbottom{
-	width: 75%;
-	padding-bottom: 20px;
+.opp_items{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding: 0 20px;
 }
+
+.opp__item__l {
+	width: 32%;
+	border-radius: 10px;
+	filter: opacity(70%);
+	transition: 0.4s;
+}
+
+.opp__item__l:hover {
+	filter: opacity(90%);
+	transition: 0.4s;
+	transform: scale(0.97);
+
+}
+.opp__item__r {
+	width: 60%;
+}
+
 .opp__header{
 	transition: .5s;
-	width: 70%;
+	width: 67%;
 	padding-bottom: 20px;
 }
 
@@ -1013,6 +1045,7 @@ header.sticky {
 
 .game__sec{
 	margin-top: -45px;
+	height: 50%
 }
 
 .game{
@@ -1068,7 +1101,7 @@ header.sticky {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: .75s;
+  transition: .7s;
   backface-visibility: hidden;
   border-radius: 10px;
 }
@@ -1076,7 +1109,8 @@ header.sticky {
   background-color: #fff;
 }
 .back {
-  background-color: #BDBDBD;
+  background-color: #000;
+  color: #fff;
   transform: rotateY(180deg);
 }
 .card:hover .front {transform: rotateY(180deg);}
@@ -1313,7 +1347,9 @@ header.sticky {
   font-size: 2.8em;
   line-height: 50px;
   color: #fff;
+
 }
+
 #btnup:hover {
   cursor: pointer;
 }
