@@ -88,31 +88,62 @@
 					<li class="header__item">
 						<a  href=""><img class="nav__button" src="img/svg/nav (1).svg"><a  id="activ_page" href="#" class="header__link">Головна</a></a>
 					</li>
-					<li class="header__item">
+
+          <li class="header__item"> 
+
             <div class="dropdown">
 						<a href=""><img class="nav__button" src="img/svg/nav (2).svg"><a href="#about_us" class="header__link">Про нас</a></a>
+
             <div class="dropdown-content">
-              <a href="">Історія</a>
-                <a href="">Досягнення</a>
-                <a href="">Дисципліни</a>
-                <a href="">Випускники</a>
-                <a href="">Ресурси</a>
+                <a href="http://nemk.com.ua/" target="_blank" >Про коледж</a>
+                <a href="about.html">Про спеціальність</a>
+                  <!-- 
+                  Історія
+                  Освітньо-професійна програма
+                  Унікальні можливості
+                  Працевлаштування
+                  Викладачі
+                  Випускники 
+                   - Наукова сфера
+                   - Виробнича сфера
+                   - Суспільна діяльність
+                  Досягнення
+                  Фотогалерея
+                   -->
              </div>
            </div>
 					</li>
+
 					<li class="header__item">
              <div class="dropdown">
-						<a href="javascript:void(0)" onclick="scroll(0,0)"><img class="nav__button" src="img/svg/nav (3).svg"><a href="javascript:void(0)" onclick="scroll(0,0)" class="header__link">Студенту</a></a>
+						<a href="javascript:void(0)" onclick="scroll(0,0)"><img class="nav__button" src="img/svg/nav (3).svg"><a href="javascript:void(0)" onclick="scroll(0,0)" class="header__link">Студенту</a></a>            
             <div class="dropdown-content">
-                <a href="">Співпраця з ВНЗ</a>
-                <a href="">Працевлаштування</a>
+
+              <div class="dropdown__second">
+                <a href="">Відділення</a>
+                    <div class="dropdown-content__second">
+                        <a href="">Денне</a>
+                        <a href="">Заочне</a>
+                    </div>
+                </div>
+
                 <a href="">Викладачі</a>
+                <a href="">Практика</a>
+                <a href="">Подальше навчання</a>
+                <a href="">Працевлаштування</a>
                 <a href="">Оплата навчання</a>
              </div>
            </div>
 					</li>
 					<li class="header__item">
+            <div class="dropdown">
 						<a href="entrant.html"><img class="nav__button" src="img/svg/nav (4).svg"><a href="entrant.html" class="header__link">Вступнику</a></a>
+            <div class="dropdown-content">
+                <a href="">Підготовче відділення</a>
+                <a href="">Приймальна комісія</a>
+                <a href="">Правила прийому</a>
+                <a href="">Випускникам ПТУ</a>
+             </div>
 					</li>								
 				</ul>
 			</nav>
@@ -455,7 +486,7 @@
     $preloader = $('.mask'),
     $loader = $preloader.find('mask');
     $loader.fadeOut();
-    $preloader.delay(1300).fadeOut('slow');
+    $preloader.delay(10).fadeOut('slow');
     });
 
     var truncate = document.querySelector(".slider__content_title p");
