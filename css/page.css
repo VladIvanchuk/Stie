@@ -110,15 +110,6 @@ h2 {
 
 }
 
-.dop__nav{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	padding: 1% 10%;
-	margin: -25px;
-	margin-bottom: 30px;
-	background: #002e48;
-}
 
 .floating-button {
   text-decoration: none;
@@ -144,4 +135,33 @@ h2 {
   box-shadow: 0 5px 8px rgba(0, 84, 186, 0.553);
   color: white;
   transform: translateY(-5px);
+}
+
+.tab{
+	cursor: pointer;
+}
+
+.tabs{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 1% 10%;
+	margin: -25px;
+	margin-bottom: 30px;
+	background: #002e48;
+}
+
+.tabs__block{
+	display: none;
+	padding-top: 120px;
+}
+
+.tabs__block:target {
+	display: block;
+}
+
+.tabs-wrapper .active { 
+	background: #0054BA;
+	color: white;
 }
