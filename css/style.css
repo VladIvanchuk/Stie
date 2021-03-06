@@ -1092,7 +1092,7 @@ header.sticky {
 }
 
 .game{
-	background: linear-gradient(rgba(0,0,0,.7),rgba(0, 51, 102, 0.6)), url(../img/imgonline-com-ua-Blur-poFBPKy2vUhlj2Vm.png) no-repeat center;
+	background: linear-gradient(rgba(0,0,0,.7),rgba(0, 51, 102, 0.6)), url(../img/main.png) no-repeat center;
 	background-size: cover;
 	box-sizing: inherit;
 	box-shadow:  0 0 3px 3px #000;
