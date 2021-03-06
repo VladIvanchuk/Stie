@@ -411,7 +411,7 @@ header.sticky {
     display: none;
     position: absolute;
     background-color: rgba(0, 61, 83, 0.90);
-    min-width: 150px;
+    min-width: 180px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   
@@ -1092,7 +1092,7 @@ header.sticky {
 }
 
 .game{
-	background: linear-gradient(rgba(0,0,0,1),rgba(0, 51, 102, 0.4)), url(../img/main.png) no-repeat center;
+	background: linear-gradient(rgba(0,0,0,.7),rgba(0, 51, 102, 0.6)), url(../img/imgonline-com-ua-Blur-poFBPKy2vUhlj2Vm.png) no-repeat center;
 	background-size: cover;
 	box-sizing: inherit;
 	box-shadow:  0 0 3px 3px #000;
@@ -1134,6 +1134,8 @@ header.sticky {
   margin: 20px;
   perspective: 1000px;
   font-weight: bold;
+ cursor: pointer;
+
 }
 .front, .back {
   position: absolute;

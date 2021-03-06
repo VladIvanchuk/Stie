@@ -127,18 +127,24 @@ h2 {
   color: #524f4e;
   background: white;
   box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
-  transition: .3s;
+  transition: .25s;
 }
 
 .floating-button:hover {
   background: #0054BA;
-  box-shadow: 0 5px 8px rgba(0, 84, 186, 0.553);
+  box-shadow: 0 5px 2px rgba(0, 84, 186, 0.553);
   color: white;
   transform: translateY(-5px);
 }
 
 .tab{
 	cursor: pointer;
+}
+
+.tab:active {
+	background: #57a3ff;
+	transform: translateY(2px);
+	box-shadow: 0 2px 0 rgba(0, 84, 186, 0.765);
 }
 
 .tabs{
@@ -164,4 +170,9 @@ h2 {
 .tabs-wrapper .active { 
 	background: #0054BA;
 	color: white;
+}
+.slidrsec{
+	margin-top: 250px;
+	background: rgba(0, 30, 46, 0.66);
+	padding: 5px 0;
 }
