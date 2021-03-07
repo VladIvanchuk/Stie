@@ -85,6 +85,7 @@ $(document).ready(function () {
 	});
 	});
 
+//Таби
 
 $('.tabs-wrapper').each(function() {
 	let ths = $(this);
