@@ -555,41 +555,26 @@ header.sticky {
 	text-align: right;
 }
 
+.intro__item img:hover {
+	transform: scale(1.2); 
+	transition: .25s;
+}
+
 .intro__item{
 	padding: 10px;
 }
 .intro__item img{
 	height: 30px;
+	transition: .25s;
 }
 
 .mainlogo{
 	text-align: center;
+	margin: -2%;
 }
-
 .mainlogo img{
-	border-radius: 100%;
-	height: 230px;
+	height: 265px;
 }
-
-
-@media (min-height: 500px) {
-	.mainlogo img{
-	height: 150px;
-}
-}
-
-@media (min-height: 600px) {
-	.mainlogo img{
-	height: 200px;
-}
-}
-
-@media (min-height: 800px) {
-	.mainlogo img{
-	height: 230px;
-}
-}
-
 
 .maintext{
 	padding: 0 250px 0 250px;
@@ -782,7 +767,7 @@ header.sticky {
 }
 
 .sec__header{
-	margin: 170px 0 80px 0;
+	margin: 155px 0 80px 0;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 33px;
