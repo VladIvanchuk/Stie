@@ -87,11 +87,32 @@ $(document).ready(function () {
 
 //Таби
 
+(function($) {
+$(function() {
+
+	$('ul.tabs__caption').on('click', 'li:not(.active)', function() {
+		$(this)
+			.addClass('active').siblings().removeClass('active')
+			.closest('div.tabs').find('div.tabs__content').removeClass('active').eq($(this).index()).addClass('active');
+	});
+
+	var tabIndex = window.location.hash.replace('#tab','')-1;
+	if (tabIndex != -1) $('ul.tabs__caption li').eq(tabIndex).click();
+
+	$('a[href*="#tab"]').click(function() {
+		var tabIndex = $(this).attr('href').replace(/(.*)#tab/, '')-1;
+		$('ul.tabs__caption li').eq(tabIndex).click();
+	});
+
+
+});
+})(jQuery);
+
 $('.tabs-wrapper').each(function() {
 	let ths = $(this);
 	ths.find('.tab-item').not(':first').hide();
 	ths.find('.tab').click(function() {
-		ths.find('.tab').removeClass('active').eq($(this).index()).addClass('active');
+		ths.find('.tab').removeClass('activecap').eq($(this).index()).addClass('activecap');
 		ths.find('.tab-item').hide().eq($(this).index()).fadeIn()
-	}).eq(0).addClass('active');
+	}).eq(0).addClass('activecap');
 });

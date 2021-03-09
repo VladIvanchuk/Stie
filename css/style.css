@@ -750,6 +750,13 @@ header.sticky {
 
 .main__btn img{
 	height: 165px;
+	transition: .3s;
+
+}
+
+.main__btn img:hover{
+	transform: scale(1.1); 
+	transition: .3s;
 }
 
 .bmts{

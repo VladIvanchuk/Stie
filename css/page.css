@@ -147,7 +147,7 @@ h2 {
 	box-shadow: 0 2px 0 rgba(0, 84, 186, 0.765);
 }
 
-.tabs{
+.tabs__caption{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
@@ -167,7 +167,7 @@ h2 {
 	display: block;
 }
 
-.tabs-wrapper .active { 
+.tabs-wrapper .activecap { 
 	background: #0054BA;
 	color: white;
 }
@@ -175,4 +175,13 @@ h2 {
 	margin-top: 250px;
 	background: rgba(0, 30, 46, 0.66);
 	padding: 5px 0;
+}
+
+
+.tabs__content {
+	display: none;
+	
+}
+.tabs__content.active {
+	display: block;
 }
