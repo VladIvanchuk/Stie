@@ -1120,13 +1120,13 @@ header.sticky {
 }
 
 .card {
-  width: 170px;
+  width: 200px;
   height: 200px;
   position: relative;
   margin: 20px;
   perspective: 1000px;
   font-weight: bold;
- cursor: pointer;
+  cursor: pointer;
 
 }
 .front, .back {
@@ -1140,14 +1140,17 @@ header.sticky {
   align-items: center;
   transition: .7s;
   backface-visibility: hidden;
-  border-radius: 10px;
 }
-.front {
-  background-color: #fff;
+.front img{
+  width: 200px;
 }
+
+.back img{
+  width: 200px;
+}
+
+
 .back {
-  background-color: #0037a6;
-  color: #fff;
   transform: rotateY(180deg);
 }
 .card:hover .front {transform: rotateY(180deg);}
