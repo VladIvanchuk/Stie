@@ -115,13 +115,12 @@ h2 {
 	display: block;
 	text-decoration: none;
 	display: inline-block;
-	padding: 0 20px;
 	height: 45px;
-	width: 270px;
+	width: 18%;
 	line-height: 45px;
 	border-radius: 20px;
 	margin: 10px 1%;
-	font-size: 12px;
+	font-size: 11px;
 	text-transform: uppercase;
 	text-align: center;
 	letter-spacing: 1.3px;
@@ -143,6 +142,7 @@ h2 {
 	cursor: pointer;
 }
 .tabs__second{
+	border-radius: 15px;
 	cursor: pointer;
 }
 .tab__second{
