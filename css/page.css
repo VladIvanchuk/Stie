@@ -60,7 +60,7 @@ h2 {
 
 .external__container{
 	max-width: 95%;
-	margin: 200px auto;
+	margin: 170px auto;
 	padding: 25px;
 	background: #001E2E;
 	min-height: 80px;
@@ -106,28 +106,30 @@ h2 {
 }
 
 .slidrsec{
-	margin-top: 200px;
+	margin-top: 0px !important;
 
 }
 
 
 .floating-button {
-  text-decoration: none;
-  display: inline-block;
-  padding: 0 20px;
-  height: 45px;
-  line-height: 45px;
-  border-radius: 20px;
-  margin: 10px 2%;
-  font-size: 12px;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 1.5px;
-  font-weight: 800;
-  color: #524f4e;
-  background: white;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
-  transition: .25s;
+	display: block;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 20px;
+	height: 45px;
+	width: 270px;
+	line-height: 45px;
+	border-radius: 20px;
+	margin: 10px 1%;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1.3px;
+	font-weight: 800;
+	color: #524f4e;
+	background: white;
+	box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+	transition: .25s;
 }
 
 .floating-button:hover {
@@ -139,6 +141,41 @@ h2 {
 
 .tab{
 	cursor: pointer;
+}
+.tabs__second{
+	cursor: pointer;
+}
+.tab__second{
+	display: block;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 20px;
+	height: 45px;
+	width: 270px;
+	line-height: 45px;
+	border-radius: 20px;
+	margin: 10px 1%;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1.3px;
+	font-weight: 800;
+	color: #fff;
+  background: #002e48;
+	box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+	transition: .25s;
+}
+
+.tab__second:hover{
+	background: #002e48;
+  box-shadow: 0 5px 2px rgba(0, 84, 186, 0.553);
+  color: white;
+  transform: translateY(-5px);
+}
+
+.activecap__second { 
+	background: #003f61;
+	color: white;
 }
 
 .tab:active {
@@ -154,8 +191,18 @@ h2 {
 	align-items: center;
 	padding: 1% 10%;
 	margin: -25px;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 	background: #002e48;
+}
+.tabs__second{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 1% 10%;
+	margin: -20px -25px; 
+	margin-bottom: 30px;
+	background: #f9f9f9;
 }
 
 .tabs__block{

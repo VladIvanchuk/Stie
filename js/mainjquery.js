@@ -116,3 +116,12 @@ $('.tabs-wrapper').each(function() {
 		ths.find('.tab-item').hide().eq($(this).index()).fadeIn()
 	}).eq(0).addClass('activecap');
 });
+
+$('.tabs-wrapper__second').each(function() {
+	let ths = $(this);
+	ths.find('.tab-item__second').not(':first').hide();
+	ths.find('.tab__second').click(function() {
+		ths.find('.tab__second').removeClass('activecap__second').eq($(this).index()).addClass('activecap__second');
+		ths.find('.tab-item__second').hide().eq($(this).index()).fadeIn()
+	}).eq(0).addClass('activecap__second');
+});
