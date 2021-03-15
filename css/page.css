@@ -151,6 +151,28 @@ h2 {
 	transition: .25s;
 }
 
+@media (max-width: 1440px){
+	.floating-button_big {
+		font-size: 10px;
+	}
+}	
+@media (max-width: 1350px){
+	.floating-button_big {
+		font-size: 9px;
+	}
+}	
+@media (max-width: 1160px){
+	.floating-button_big {
+		font-size: 7px;
+	}
+}	
+@media (max-width: 990px){
+	.floating-button_big {
+		font-size: 5.5px;
+	}
+}	
+
+/****************************/
 @media (max-width: 1400px){
 	.floating-button {
 		font-size: 10px;
